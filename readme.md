@@ -18,6 +18,10 @@
 
 - 大部分学生别名提供
 
+### [Rouphy](https://github.com/Rouphy)
+
+- 部分学生别名提供
+
 ### [SchaleDB](https://lonqie.github.io/SchaleDB/)
 
 - 部分中文翻译
