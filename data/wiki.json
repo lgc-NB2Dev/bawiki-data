@@ -177,76 +177,90 @@
   },
   "raid": {
     "1": {
-      "Outdoor": [
-        "img/raid/jp/1_Outdoor.png",
-        "img/raid/global/1_Outdoor.png"
-      ],
-      "Street": [
-        "img/raid/jp/1_Street.png",
-        "img/raid/global/1_Street.png"
-      ],
+      "terrains": {
+        "Outdoor": [
+          "img/raid/jp/1_Outdoor.png",
+          "img/raid/global/1_Outdoor.png"
+        ],
+        "Street": [
+          "img/raid/jp/1_Street.png",
+          "img/raid/global/1_Street.png"
+        ]
+      },
       "wiki": "img/raid/binah.png"
     },
     "2": {
-      "Indoor": [
-        "img/raid/jp/2_Indoor.png",
-        "img/raid/global/2_Indoor.png"
-      ],
-      "Outdoor": [
-        "img/raid/jp/2_Outdoor.png",
-        "img/raid/global/2_Outdoor.png"
-      ],
+      "terrains": {
+        "Indoor": [
+          "img/raid/jp/2_Indoor.png",
+          "img/raid/global/2_Indoor.png"
+        ],
+        "Outdoor": [
+          "img/raid/jp/2_Outdoor.png",
+          "img/raid/global/2_Outdoor.png"
+        ]
+      },
       "wiki": "img/raid/chesed.png"
     },
     "3": {
-      "Street": [
-        "img/raid/jp/3_Street.png",
-        "img/raid/global/3_Street.png"
-      ],
-      "Indoor": [
-        "img/raid/jp/3_Indoor.png",
-        "img/raid/global/3_Indoor.png"
-      ],
+      "terrains": {
+        "Street": [
+          "img/raid/jp/3_Street.png",
+          "img/raid/global/3_Street.png"
+        ],
+        "Indoor": [
+          "img/raid/jp/3_Indoor.png",
+          "img/raid/global/3_Indoor.png"
+        ]
+      },
       "wiki": "img/raid/shiro_kuro.png"
     },
     "4": {
-      "Indoor": [
-        "img/raid/jp/4_Indoor.png",
-        "img/raid/global/4_Indoor.png"
-      ],
-      "Street": [
-        "img/raid/jp/4_Street.png",
-        "img/raid/global/4_Street.png"
-      ],
+      "terrains": {
+        "Indoor": [
+          "img/raid/jp/4_Indoor.png",
+          "img/raid/global/4_Indoor.png"
+        ],
+        "Street": [
+          "img/raid/jp/4_Street.png",
+          "img/raid/global/4_Street.png"
+        ]
+      },
       "wiki": "img/raid/hieronymus.png"
     },
     "5": {
-      "Outdoor": [
-        "img/raid/jp/5_Outdoor.png",
-        "img/raid/global/5_Outdoor.png"
-      ],
-      "Street": [
-        "img/raid/jp/5_Street.png",
-        "img/raid/global/5_Street.png"
-      ],
+      "terrains": {
+        "Outdoor": [
+          "img/raid/jp/5_Outdoor.png",
+          "img/raid/global/5_Outdoor.png"
+        ],
+        "Street": [
+          "img/raid/jp/5_Street.png",
+          "img/raid/global/5_Street.png"
+        ]
+      },
       "wiki": "img/raid/kaiten.png"
     },
     "6": {
-      "Indoor": [
-        "img/raid/jp/6_Indoor.png",
-        "img/raid/global/6_Indoor.png"
-      ],
-      "Outdoor": [
-        "img/raid/jp/6_Outdoor.png",
-        "img/raid/global/6_Outdoor.png"
-      ],
+      "terrains": {
+        "Indoor": [
+          "img/raid/jp/6_Indoor.png",
+          "img/raid/global/6_Indoor.png"
+        ],
+        "Outdoor": [
+          "img/raid/jp/6_Outdoor.png",
+          "img/raid/global/6_Outdoor.png"
+        ]
+      },
       "wiki": "img/raid/perorodzilla.png"
     },
     "7": {
-      "Street": [
-        "img/raid/jp/7_Street.png",
-        "img/raid/global/7_Street.png"
-      ],
+      "terrains": {
+        "Street": [
+          "img/raid/jp/7_Street.png",
+          "img/raid/global/7_Street.png"
+        ]
+      },
       "wiki": "img/raid/hod.png"
     }
   },
