@@ -36,6 +36,11 @@ jobs:
           python-version: '3.10'
       - name: Run pre-deploy.sh
         run: sh scripts/pre-deploy.sh
+      - name: Commit changes
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
+          git commit --allow-empty -m "pre deploy" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
