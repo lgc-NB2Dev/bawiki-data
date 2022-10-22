@@ -50,7 +50,7 @@ async def main():
     alias_li = json.loads(alias_li)
     suff_li = json.loads(suff_li)
 
-    replaced_alias_li = {}
+    replaced_alias_li = alias_li
 
     for s_id, s in cn_stu.items():
         org_li = set(alias_li.get(cn_name := replace_brackets(s["Name"])) or set())

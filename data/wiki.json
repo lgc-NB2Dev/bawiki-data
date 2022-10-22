@@ -59,6 +59,7 @@
     ]
   },
   "student": {
+    "all": "img/student/_all.png",
     "星野": "img/student/hoshino.png",
     "星野(泳装)": "img/student/hoshino (swimsuit).png",
     "阿露": "img/student/aru.png",
