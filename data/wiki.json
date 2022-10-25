@@ -263,6 +263,10 @@
         ]
       },
       "wiki": "img/raid/hod.png"
+    },
+    "8": {
+      "terrains": {},
+      "wiki": "img/raid/goz.png"
     }
   },
   "time_atk": [
