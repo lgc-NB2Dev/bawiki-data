@@ -56,6 +56,9 @@
     ],
     "817": [
       "img/event/817.png"
+    ],
+    "818": [
+      "img/event/818.png"
     ]
   },
   "student": {
@@ -175,9 +178,9 @@
     "ノア": "img/student/noa.png",
     "ヒビキ(応援団)": "img/student/hibiki (cheerleader).png",
     "アカネ(バニーガール)": "img/student/akane (bunny).png",
-    "莲见(运动服)": "img/student/hasumi (sports).png",
-    "玛丽(运动服)": "img/student/mari (sports).png",
-    "优香(运动服)": "img/student/yuuka (sports).png"
+    "ハスミ(体操服)": "img/student/hasumi (track).png",
+    "マリー(体操服)": "img/student/mari (track).png",
+    "ユウカ(体操服)": "img/student/yuuka (track).png"
   },
   "raid": {
     "1": {
