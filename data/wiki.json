@@ -1,65 +1,28 @@
 {
   "event": {
     "701": [],
-    "801": [
-      "img/event/801_re.png"
-    ],
-    "802": [
-      "img/event/802_re.png"
-    ],
-    "803": [
-      "img/event/803.png"
-    ],
-    "804": [
-      "img/event/804_re.png"
-    ],
-    "805": [
-      "img/event/805_re.png"
-    ],
-    "806": [
-      "img/event/806_re.png"
-    ],
-    "808": [
-      "img/event/808_1.png",
-      "img/event/808_2.png"
-    ],
-    "809": [
-      "img/event/809.png"
-    ],
-    "810": [
-      "img/event/810_811_1.png",
-      "img/event/810_811_2.png"
-    ],
-    "811": [
-      "img/event/810_811_1.png",
-      "img/event/810_811_2.png"
-    ],
-    "812": [
-      "img/event/812.png"
-    ],
-    "813": [
-      "img/event/813_1.png",
-      "img/event/813_2.png"
-    ],
-    "814": [
-      "img/event/814_1.png",
-      "img/event/814_2.png"
-    ],
+    "801": ["img/event/801_re.png"],
+    "802": ["img/event/802_re.png"],
+    "803": ["img/event/803.png"],
+    "804": ["img/event/804_re.png"],
+    "805": ["img/event/805_re.png"],
+    "806": ["img/event/806_re.png"],
+    "808": ["img/event/808_1.png", "img/event/808_2.png"],
+    "809": ["img/event/809.png"],
+    "810": ["img/event/810_811_1.png", "img/event/810_811_2.png"],
+    "811": ["img/event/810_811_1.png", "img/event/810_811_2.png"],
+    "812": ["img/event/812.png"],
+    "813": ["img/event/813_1.png", "img/event/813_2.png"],
+    "814": ["img/event/814_1.png", "img/event/814_2.png"],
     "815": [
       "img/event/815_1.png",
       "img/event/815_2.png",
       "img/event/815_3.png",
       "img/event/815_4.png"
     ],
-    "816": [
-      "img/event/816.png"
-    ],
-    "817": [
-      "img/event/817.png"
-    ],
-    "818": [
-      "img/event/818.jpg"
-    ]
+    "816": ["img/event/816.png"],
+    "817": ["img/event/817.png"],
+    "818": ["img/event/818.jpg"]
   },
   "student": {
     "all": "img/student/_all.png",
@@ -173,14 +136,14 @@
     "满": "img/student/michiru.png",
     "萌绘": "img/student/moe.png",
     "和纱": "img/student/kazusa.png",
-    "ココナ": "img/student/kokona.png",
-    "ウタハ(応援団)": "img/student/utaha (cheerleader).png",
-    "ノア": "img/student/noa.png",
-    "ヒビキ(応援団)": "img/student/hibiki (cheerleader).png",
-    "アカネ(バニーガール)": "img/student/akane (bunny).png",
-    "ハスミ(体操服)": "img/student/hasumi (track).png",
-    "マリー(体操服)": "img/student/mari (track).png",
-    "ユウカ(体操服)": "img/student/yuuka (track).png"
+    "心奈": "img/student/kokona.png",
+    "歌原(应援团)": "img/student/utaha (cheerleader).png",
+    "诺亚": "img/student/noa.png",
+    "响(应援团)": "img/student/hibiki (cheerleader).png",
+    "茜(兔女郎)": "img/student/akane (bunny).png",
+    "莲见(体操服)": "img/student/hasumi (track).png",
+    "玛丽(体操服)": "img/student/mari (track).png",
+    "优香(体操服)": "img/student/yuuka (track).png"
   },
   "raid": {
     "1": {
@@ -189,19 +152,13 @@
           "img/raid/jp/1_Outdoor.png",
           "img/raid/global/1_Outdoor.png"
         ],
-        "Street": [
-          "img/raid/jp/1_Street.png",
-          "img/raid/global/1_Street.png"
-        ]
+        "Street": ["img/raid/jp/1_Street.png", "img/raid/global/1_Street.png"]
       },
       "wiki": "img/raid/binah.png"
     },
     "2": {
       "terrains": {
-        "Indoor": [
-          "img/raid/jp/2_Indoor.png",
-          "img/raid/global/2_Indoor.png"
-        ],
+        "Indoor": ["img/raid/jp/2_Indoor.png", "img/raid/global/2_Indoor.png"],
         "Outdoor": [
           "img/raid/jp/2_Outdoor.png",
           "img/raid/global/2_Outdoor.png"
@@ -211,27 +168,15 @@
     },
     "3": {
       "terrains": {
-        "Street": [
-          "img/raid/jp/3_Street.png",
-          "img/raid/global/3_Street.png"
-        ],
-        "Indoor": [
-          "img/raid/jp/3_Indoor.png",
-          "img/raid/global/3_Indoor.png"
-        ]
+        "Street": ["img/raid/jp/3_Street.png", "img/raid/global/3_Street.png"],
+        "Indoor": ["img/raid/jp/3_Indoor.png", "img/raid/global/3_Indoor.png"]
       },
       "wiki": "img/raid/shiro_kuro.png"
     },
     "4": {
       "terrains": {
-        "Indoor": [
-          "img/raid/jp/4_Indoor.png",
-          "img/raid/global/4_Indoor.png"
-        ],
-        "Street": [
-          "img/raid/jp/4_Street.png",
-          "img/raid/global/4_Street.png"
-        ]
+        "Indoor": ["img/raid/jp/4_Indoor.png", "img/raid/global/4_Indoor.png"],
+        "Street": ["img/raid/jp/4_Street.png", "img/raid/global/4_Street.png"]
       },
       "wiki": "img/raid/hieronymus.png"
     },
@@ -241,19 +186,13 @@
           "img/raid/jp/5_Outdoor.png",
           "img/raid/global/5_Outdoor.png"
         ],
-        "Street": [
-          "img/raid/jp/5_Street.png",
-          "img/raid/global/5_Street.png"
-        ]
+        "Street": ["img/raid/jp/5_Street.png", "img/raid/global/5_Street.png"]
       },
       "wiki": "img/raid/kaiten.png"
     },
     "6": {
       "terrains": {
-        "Indoor": [
-          "img/raid/jp/6_Indoor.png",
-          "img/raid/global/6_Indoor.png"
-        ],
+        "Indoor": ["img/raid/jp/6_Indoor.png", "img/raid/global/6_Indoor.png"],
         "Outdoor": [
           "img/raid/jp/6_Outdoor.png",
           "img/raid/global/6_Outdoor.png"
@@ -263,10 +202,7 @@
     },
     "7": {
       "terrains": {
-        "Street": [
-          "img/raid/jp/7_Street.png",
-          "img/raid/global/7_Street.png"
-        ]
+        "Street": ["img/raid/jp/7_Street.png", "img/raid/global/7_Street.png"]
       },
       "wiki": "img/raid/hod.png"
     },
@@ -285,240 +221,100 @@
     "img/time_atk/7.png",
     "img/time_atk/8.png"
   ],
-  "craft": [
-    "img/craft/1.png",
-    "img/craft/2.png"
-  ],
+  "craft": ["img/craft/1.png", "img/craft/2.png"],
   "global_future": {
     "img": "img/global_future.png",
-    "banner": [
-      0,
-      194
-    ],
+    "banner": [0, 194],
     "parts": [
       {
-        "date": [
-          "2022/11/1",
-          "2022/11/15"
-        ],
-        "part": [
-          194,
-          491
-        ]
+        "date": ["2022/11/1", "2022/11/15"],
+        "part": [194, 491]
       },
       {
-        "date": [
-          "2022/11/15",
-          "2022/11/29"
-        ],
-        "part": [
-          488,
-          781
-        ]
+        "date": ["2022/11/15", "2022/11/29"],
+        "part": [488, 781]
       },
       {
-        "date": [
-          "2022/11/29",
-          "2022/12/06"
-        ],
-        "part": [
-          778,
-          1070
-        ]
+        "date": ["2022/11/29", "2022/12/06"],
+        "part": [778, 1070]
       },
       {
-        "date": [
-          "2022/12/06",
-          "2022/12/20"
-        ],
-        "part": [
-          1067,
-          1361
-        ]
+        "date": ["2022/12/06", "2022/12/20"],
+        "part": [1067, 1361]
       },
       {
-        "date": [
-          "2022/12/20",
-          "2023/01/03"
-        ],
-        "part": [
-          1358,
-          1649
-        ]
+        "date": ["2022/12/20", "2023/01/03"],
+        "part": [1358, 1649]
       },
       {
-        "date": [
-          "2023/01/03",
-          "2023/01/17"
-        ],
-        "part": [
-          1646,
-          1938
-        ]
+        "date": ["2023/01/03", "2023/01/17"],
+        "part": [1646, 1938]
       },
       {
-        "date": [
-          "2023/01/17",
-          "2023/01/31"
-        ],
-        "part": [
-          1935,
-          2227
-        ]
+        "date": ["2023/01/17", "2023/01/31"],
+        "part": [1935, 2227]
       },
       {
-        "date": [
-          "2023/01/31",
-          "2023/02/14"
-        ],
-        "part": [
-          2223,
-          2524
-        ]
+        "date": ["2023/01/31", "2023/02/14"],
+        "part": [2223, 2524]
       },
       {
-        "date": [
-          "2023/02/14",
-          "2023/02/28"
-        ],
-        "part": [
-          2521,
-          2813
-        ]
+        "date": ["2023/02/14", "2023/02/28"],
+        "part": [2521, 2813]
       },
       {
-        "date": [
-          "2023/02/28",
-          "2023/03/05"
-        ],
-        "part": [
-          2810,
-          3107
-        ]
+        "date": ["2023/02/28", "2023/03/05"],
+        "part": [2810, 3107]
       },
       {
-        "date": [
-          "2023/03/05",
-          "2023/03/14"
-        ],
-        "part": [
-          3104,
-          3396
-        ]
+        "date": ["2023/03/05", "2023/03/14"],
+        "part": [3104, 3396]
       },
       {
-        "date": [
-          "2023/03/14",
-          "2023/03/21"
-        ],
-        "part": [
-          3393,
-          3690
-        ]
+        "date": ["2023/03/14", "2023/03/21"],
+        "part": [3393, 3690]
       },
       {
-        "date": [
-          "2023/03/21",
-          "2023/04/04"
-        ],
-        "part": [
-          3687,
-          3984
-        ]
+        "date": ["2023/03/21", "2023/04/04"],
+        "part": [3687, 3984]
       },
       {
-        "date": [
-          "2023/04/04",
-          "2023/04/18"
-        ],
-        "part": [
-          3977,
-          4270
-        ]
+        "date": ["2023/04/04", "2023/04/18"],
+        "part": [3977, 4270]
       },
       {
-        "date": [
-          "2023/04/18",
-          "2023/04/25"
-        ],
-        "part": [
-          4267,
-          4559
-        ]
+        "date": ["2023/04/18", "2023/04/25"],
+        "part": [4267, 4559]
       },
       {
-        "date": [
-          "2023/04/25",
-          "2023/05/02"
-        ],
-        "part": [
-          4556,
-          4846
-        ]
+        "date": ["2023/04/25", "2023/05/02"],
+        "part": [4556, 4846]
       },
       {
-        "date": [
-          "2023/05/02",
-          "2023/05/09"
-        ],
-        "part": [
-          4843,
-          5134
-        ]
+        "date": ["2023/05/02", "2023/05/09"],
+        "part": [4843, 5134]
       },
       {
-        "date": [
-          "2023/05/09",
-          "2023/05/23"
-        ],
-        "part": [
-          5131,
-          5417
-        ]
+        "date": ["2023/05/09", "2023/05/23"],
+        "part": [5131, 5417]
       },
       {
-        "date": [
-          "2023/05/23",
-          "2023/05/30"
-        ],
-        "part": [
-          5414,
-          5994
-        ]
+        "date": ["2023/05/23", "2023/05/30"],
+        "part": [5414, 5994]
       },
       {
-        "date": [
-          "2023/05/30",
-          "2023/06/06"
-        ],
-        "part": [
-          5991,
-          6283
-        ]
+        "date": ["2023/05/30", "2023/06/06"],
+        "part": [5991, 6283]
       },
       {
-        "date": [
-          "2023/06/06",
-          "2023/06/20"
-        ],
-        "part": [
-          6277,
-          6569
-        ]
+        "date": ["2023/06/06", "2023/06/20"],
+        "part": [6277, 6569]
       },
       {
-        "date": [
-          "2023/06/20",
-          "2023/06/27"
-        ],
-        "part": [
-          6566,
-          6858
-        ]
+        "date": ["2023/06/20", "2023/06/27"],
+        "part": [6566, 6858]
       }
     ]
   },
-  "furniture": [
-    "img/furniture.png"
-  ]
+  "furniture": ["img/furniture.png"]
 }
