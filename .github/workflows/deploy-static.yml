@@ -37,12 +37,8 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
-          git commit --allow-empty -m "pre deploy" -a
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          git commit -m "pre deploy" -a || exit 0
+          git push
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
