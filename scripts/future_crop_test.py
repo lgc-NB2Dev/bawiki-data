@@ -5,7 +5,6 @@ from PIL import Image
 
 ROOT_PATH = Path(__file__).parent.parent
 WIKI_PATH = ROOT_PATH / "data" / "wiki.json"
-PIC_PATH = ROOT_PATH / "img" / "global_future.png"
 TMP_PATH = ROOT_PATH / "scripts" / "tmp"
 
 if not TMP_PATH.exists():
@@ -13,12 +12,18 @@ if not TMP_PATH.exists():
 
 
 def main():
+    for i in TMP_PATH.iterdir():
+        if i.is_file():
+            i.unlink()
+
     with open(str(WIKI_PATH), encoding="u8") as f:
         wiki_json = json.loads(f.read())
 
-    future_parts: list = wiki_json["global_future"]["parts"]
+    future: dict = wiki_json["global_future"]
+    pic_path: str = future["img"]
+    future_parts: list = future["parts"]
 
-    img: Image.Image = Image.open(str(PIC_PATH))
+    img: Image.Image = Image.open(str(ROOT_PATH / pic_path))
     for p in future_parts:
         filename = (" _ ".join(p["date"]) + ".png").replace("/", "-")
         start, end = p["part"]
