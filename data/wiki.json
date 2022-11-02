@@ -207,7 +207,9 @@
       "wiki": "img/raid/hod.png"
     },
     "8": {
-      "terrains": {},
+      "terrains": {
+        "Indoor": ["img/raid/jp/Goz_Indoor.png", ""]
+      },
       "wiki": "img/raid/goz.jpg"
     }
   },
