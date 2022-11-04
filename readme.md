@@ -25,3 +25,7 @@
 ### [SchaleDB](https://lonqie.github.io/SchaleDB/)
 
 - 部分中文翻译
+
+### [GameKee](https://ba.gamekee.com/)
+
+- 官推漫画等
