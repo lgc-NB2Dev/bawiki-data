@@ -1,0 +1,4 @@
+all.log
+error.log
+scripts/tmp/
+__pycache__/

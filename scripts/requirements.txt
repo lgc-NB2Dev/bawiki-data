@@ -1,0 +1,6 @@
+pathlib
+aiofiles
+aiohttp
+cn-sort
+beautifulsoup4
+lxml
