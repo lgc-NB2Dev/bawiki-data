@@ -29,18 +29,32 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
+      # Environment
       - name: Setup Py 3.10
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
+      - name: Set Up Node.js 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Install Prettier
+        run: npm i -g prettier
+
+      # Pre deploy
       - name: Run pre-deploy.sh
         run: sh scripts/pre-deploy.sh
+      - name: Format with Prettier
+        run: prettier -c -w .
       - name: Commit changes
         run: |
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
           git commit -m "pre deploy" -a || exit 0
           git push
+
+      # Upload Pages
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
@@ -51,6 +65,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+
+      # Purge Cache
       - name: Purge Cloudflare cache
         uses: jakejarvis/cloudflare-purge-action@master
         env:
