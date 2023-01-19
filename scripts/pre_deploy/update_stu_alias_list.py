@@ -51,7 +51,7 @@ async def main():
             split = cn_name.split("(")
             cn_org_name = split[0]
             suffix = split[1][:-1]
-            if (suffix_alias := suff_li.get(suffix)) and (
+            if ((suffix_alias := suff_li.get(suffix)) is not None) and (
                 org_id := [k for k, v in cn_stu.items() if v["Name"] == cn_org_name]
             ):
                 org_id = org_id[0]
