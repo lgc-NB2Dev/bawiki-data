@@ -9,11 +9,19 @@
     "806": ["img/event/806_re.png"],
     "808": ["img/event/808_re.png"],
     "809": ["img/event/809.png"],
-    "810": ["img/event/810_811_1.png", "img/event/810_811_2.png"],
-    "811": ["img/event/810_811_1.png", "img/event/810_811_2.png"],
+    "810": [
+      "img/event/810_811_1.jpg",
+      "img/event/810_811_2.png",
+      "img/event/810_811_3.jpg"
+    ],
+    "811": [
+      "img/event/810_811_1.jpg",
+      "img/event/810_811_2.png",
+      "img/event/810_811_3.jpg"
+    ],
     "812": ["img/event/812.png"],
     "813": ["img/event/813_re.png"],
-    "814": ["img/event/814_1.png", "img/event/814_2.png"],
+    "814": ["img/event/814_re_1.png", "img/event/814_re_2.png"],
     "815": [
       "img/event/815_1.png",
       "img/event/815_2.png",
@@ -25,7 +33,7 @@
     "818": ["img/event/818.jpg"]
   },
   "student": {
-    "all": "img/student/_all.png",
+    "all": "img/student/_all.jpg",
     "星野": "img/student/hoshino.png",
     "星野(泳装)": "img/student/hoshino (swimsuit).png",
     "阿露": "img/student/aru.png",
@@ -147,7 +155,11 @@
     "日鞠": "img/student/himari.png",
     "时雨": "img/student/shigure.png",
     "芹娜(圣诞)": "img/student/serina (christmas).png",
-    "花绘(圣诞)": "img/student/hanae (christmas).png"
+    "花绘(圣诞)": "img/student/hanae (christmas).png",
+    "ミネ": "img/student/mine.png",
+    "环奈": "img/student/kanna.png",
+    "惠": "img/student/megu.png",
+    "弥香": "img/student/mika.png"
   },
   "raid": {
     "1": {
@@ -229,7 +241,7 @@
     "img/time_atk/9.png",
     "img/time_atk/10.png"
   ],
-  "craft": ["img/craft/1.png", "img/craft/2.png"],
+  "craft": ["img/craft/1.png"],
   "global_future": {
     "img": "img/global_future.jpg",
     "banner": [0, 196],
