@@ -1,0 +1,349 @@
+{
+  "raid": {
+    "1": {
+      "wiki": "img/raid/binah.png",
+      "terrains": {
+        "Street": ["img/raid/jp/1_Street.png", "img/raid/global/1_Street.png"],
+        "Outdoor": [
+          "img/raid/jp/1_Outdoor.png",
+          "img/raid/global/1_Outdoor.png"
+        ]
+      }
+    },
+    "2": {
+      "wiki": "img/raid/chesed.png",
+      "terrains": {
+        "Indoor": ["img/raid/jp/2_Indoor.png", "img/raid/global/2_Indoor.png"],
+        "Outdoor": [
+          "img/raid/jp/2_Outdoor.png",
+          "img/raid/global/2_Outdoor.png"
+        ]
+      }
+    },
+    "3": {
+      "wiki": "img/raid/shiro_kuro.png",
+      "terrains": {
+        "Indoor": ["img/raid/jp/3_Indoor.png", "img/raid/global/3_Indoor.png"],
+        "Street": ["img/raid/jp/3_Street.png", "img/raid/global/3_Street.png"]
+      }
+    },
+    "4": {
+      "wiki": "img/raid/hieronymus.png",
+      "terrains": {
+        "Indoor": ["img/raid/jp/4_Indoor.png", "img/raid/global/4_Indoor.png"],
+        "Street": ["img/raid/jp/4_Street.png", "img/raid/global/4_Street.png"]
+      }
+    },
+    "5": {
+      "wiki": "img/raid/kaiten.png",
+      "terrains": {
+        "Street": ["img/raid/jp/5_Street.png", "img/raid/global/5_Street.png"],
+        "Outdoor": [
+          "img/raid/jp/5_Outdoor.png",
+          "img/raid/global/5_Outdoor.png"
+        ]
+      }
+    },
+    "6": {
+      "wiki": "img/raid/perorodzilla.png",
+      "terrains": {
+        "Indoor": ["img/raid/jp/6_Indoor.png", "img/raid/global/6_Indoor.png"],
+        "Outdoor": [
+          "img/raid/jp/6_Outdoor.png",
+          "img/raid/global/6_Outdoor.png"
+        ]
+      }
+    },
+    "7": {
+      "wiki": "img/raid/hod.png",
+      "terrains": {
+        "Street": ["img/raid/jp/7_Street.png", "img/raid/global/7_Street.png"]
+      }
+    },
+    "8": {
+      "wiki": "img/raid/goz.jpg",
+      "terrains": {
+        "Indoor": ["img/raid/jp/Goz_Indoor.png", ""]
+      }
+    }
+  },
+  "craft": ["img/craft/1.png"],
+  "event": {
+    "701": [],
+    "801": ["img/event/801_re.png"],
+    "802": ["img/event/802_re.png"],
+    "803": ["img/event/803.png"],
+    "804": ["img/event/804_re.png"],
+    "805": ["img/event/805_re.png"],
+    "806": ["img/event/806_re.png"],
+    "808": ["img/event/808_re.png"],
+    "809": ["img/event/809.png"],
+    "810": [
+      "img/event/810_811_1.jpg",
+      "img/event/810_811_2.png",
+      "img/event/810_811_3.jpg"
+    ],
+    "811": [
+      "img/event/810_811_1.jpg",
+      "img/event/810_811_2.png",
+      "img/event/810_811_3.jpg"
+    ],
+    "812": ["img/event/812.png"],
+    "813": ["img/event/813_re.png"],
+    "814": ["img/event/814_re_1.png", "img/event/814_re_2.png"],
+    "815": [
+      "img/event/815_1.png",
+      "img/event/815_2.png",
+      "img/event/815_3.png",
+      "img/event/815_4.png"
+    ],
+    "816": ["img/event/816.png"],
+    "817": ["img/event/817.png"],
+    "818": ["img/event/818.jpg"]
+  },
+  "student": {
+    "all": "img/student/_all.png",
+    "シロコ(水着)": "img/student/shiroko (swimsuit).png",
+    "阿露": "img/student/aru.png",
+    "阿露(正月)": "img/student/aru (new year).png",
+    "艾米": "img/student/eimi.png",
+    "爱丽丝": "img/student/aris.png",
+    "爱丽丝(女仆)": "img/student/aris (maid).png",
+    "爱莉": "img/student/_extra.png",
+    "白子": "img/student/shiroko.png",
+    "白子(单车)": "img/student/shiroko (cycling).png",
+    "初音未来": "img/student/hatsune miku.png",
+    "吹雪": "img/student/fubuki.png",
+    "椿": "img/student/tsubaki.png",
+    "淳子": "img/student/junko.png",
+    "淳子(正月)": "img/student/junko (new year).png",
+    "菲娜": "img/student/pina.png",
+    "枫": "img/student/kaede.png",
+    "枫香": "img/student/_extra.png",
+    "枫香(正月)": "img/student/fuuka (new year).png",
+    "歌原": "img/student/utaha.png",
+    "歌原(应援团)": "img/student/utaha (cheer squad).png",
+    "宫子": "img/student/miyako.png",
+    "宫子(泳装)": "img/student/miyako (swimsuit).png",
+    "果穗": "img/student/kaho.png",
+    "好美": "img/student/_extra.png",
+    "和纱": "img/student/kazusa.png",
+    "和香": "img/student/nodoka.png",
+    "和香(温泉)": "img/student/nodoka (hot spring).png",
+    "鹤城": "img/student/tsurugi.png",
+    "鹤城(泳装)": "img/student/tsurugi (swimsuit).png",
+    "花江": "img/student/hanae.png",
+    "花江(圣诞)": "img/student/hanae (christmas).png",
+    "花凛": "img/student/karin.png",
+    "花凛(兔女郎)": "img/student/karin (bunny).png",
+    "花子": "img/student/hanako.png",
+    "惠": "img/student/megu.png",
+    "佳代子": "img/student/kayoko.png",
+    "佳代子(正月)": "img/student/kayoko (new year).png",
+    "堇": "img/student/sumire.png",
+    "静子": "img/student/shizuko.png",
+    "静子(泳装)": "img/student/shizuko (swimsuit).png",
+    "柯托莉": "img/student/kotori.png",
+    "濑名": "img/student/sena.png",
+    "莲见": "img/student/hasumi.png",
+    "莲见(运动服)": "img/student/hasumi (track).png",
+    "玲纱": "img/student/reisa.png",
+    "铃美": "img/student/suzumi.png",
+    "绫音": "img/student/ayane.png",
+    "绫音(泳装)": "img/student/ayane (swimsuit).png",
+    "瑠美": "img/student/rumi.png",
+    "绿": "img/student/midori.png",
+    "玛丽": "img/student/mari.png",
+    "玛丽(运动服)": "img/student/mari (track).png",
+    "玛利娜": "img/student/marina.png",
+    "满": "img/student/michiru.png",
+    "美弥": "img/student/mine.png",
+    "美咲": "img/student/misaki.png",
+    "美游": "img/student/miyu.png",
+    "美游(泳装)": "img/student/miyu (swimsuit).png",
+    "萌绘": "img/student/moe.png",
+    "弥奈": "img/student/mina.png",
+    "明里": "img/student/akari.png",
+    "明日奈": "img/student/asuna.png",
+    "明日奈(兔女郎)": "img/student/asuna (bunny).png",
+    "睦月": "img/student/mutsuki.png",
+    "睦月(正月)": "img/student/mutsuki (new year).png",
+    "尼禄": "img/student/neru.png",
+    "尼禄(兔女郎)": "img/student/neru (bunny).png",
+    "诺亚": "img/student/noa.png",
+    "千世": "img/student/chise.png",
+    "千世(泳装)": "img/student/chise (swimsuit).png",
+    "千夏": "img/student/chinatsu.png",
+    "千夏(温泉)": "img/student/chinatsu (hot spring).png",
+    "千寻": "img/student/chihiro.png",
+    "茜": "img/student/akane.png",
+    "茜(兔女郎)": "img/student/akane (bunny).png",
+    "切里诺": "img/student/cherino.png",
+    "切里诺(温泉)": "img/student/cherino (hot spring).png",
+    "芹娜": "img/student/serina.png",
+    "芹娜(圣诞)": "img/student/serina (christmas).png",
+    "芹香": "img/student/serika.png",
+    "芹香(正月)": "img/student/serika (new year).png",
+    "晴": "img/student/hare.png",
+    "晴奈": "img/student/haruna.png",
+    "晴奈(正月)": "img/student/haruna (new year).png",
+    "泉": "img/student/izumi.png",
+    "泉(泳装)": "img/student/izumi (swimsuit).png",
+    "泉奈": "img/student/izuna.png",
+    "泉奈(泳装)": "img/student/izuna (swimsuit).png",
+    "日富美": "img/student/hifumi.png",
+    "日富美(泳装)": "img/student/hifumi (swimsuit).png",
+    "日和": "img/student/hiyori.png",
+    "日鞠": "img/student/himari.png",
+    "日奈": "img/student/hina.png",
+    "日奈(泳装)": "img/student/hina (swimsuit).png",
+    "日向": "img/student/hinata.png",
+    "若藻": "img/student/wakamo.png",
+    "若藻(泳装)": "img/student/wakamo (swimsuit).png",
+    "三森": "img/student/mimori.png",
+    "纱绫": "img/student/saya.png",
+    "纱绫(私服)": "img/student/saya (casual).png",
+    "纱织": "img/student/saori.png",
+    "时": "img/student/toki.png",
+    "时(兔女郎)": "img/student/toki (bunny).png",
+    "时雨": "img/student/shigure.png",
+    "实里": "img/student/minori.png",
+    "瞬": "img/student/shun.png",
+    "瞬(幼女)": "img/student/shun (small).png",
+    "桃井": "img/student/momoi.png",
+    "桐乃": "img/student/kirino.png",
+    "未花": "img/student/mika.png",
+    "夏": "img/student/natsu.png",
+    "响": "img/student/hibiki.png",
+    "响(应援团)": "img/student/hibiki (cheer squad).png",
+    "小春": "img/student/koharu.png",
+    "小雪": "img/student/koyuki.png",
+    "小玉": "img/student/kotama.png",
+    "咲": "img/student/saki.png",
+    "咲(泳装)": "img/student/saki (swimsuit).png",
+    "心奈": "img/student/kokona.png",
+    "星野": "img/student/hoshino.png",
+    "星野(泳装)": "img/student/hoshino (swimsuit).png",
+    "亚津子": "img/student/atsuko.png",
+    "亚子": "img/student/ako.png",
+    "遥香": "img/student/haruka.png",
+    "遥香(正月)": "img/student/haruka (new year).png",
+    "野宫": "img/student/nonomi.png",
+    "野宫(泳装)": "img/student/nonomi (swimsuit).png",
+    "叶渚": "img/student/kanna.png",
+    "伊吕波": "img/student/iroha.png",
+    "伊织": "img/student/iori.png",
+    "伊织(泳装)": "img/student/iori (swimsuit).png",
+    "樱子": "img/student/sakurako.png",
+    "优香": "img/student/yuuka.png",
+    "优香(运动服)": "img/student/yuuka (track).png",
+    "忧": "img/student/ui.png",
+    "柚子": "img/student/yuzu.png",
+    "柚子(女仆)": "img/student/yuzu (maid).png",
+    "月咏": "img/student/tsukuyo.png",
+    "真白": "img/student/mashiro.png",
+    "真白(泳装)": "img/student/mashiro (swimsuit).png",
+    "真纪": "img/student/maki.png",
+    "志美子": "img/student/shimiko.png",
+    "智惠": "img/student/tomoe.png",
+    "茱莉": "img/student/_extra.png",
+    "渚": "img/student/nagisa.png",
+    "梓": "img/student/azusa.png",
+    "梓(泳装)": "img/student/azusa (swimsuit).png"
+  },
+  "time_atk": [
+    "img/time_atk/1.png",
+    "img/time_atk/2.png",
+    "img/time_atk/3.png",
+    "img/time_atk/4.png",
+    "img/time_atk/5.png",
+    "img/time_atk/6.png",
+    "img/time_atk/7.png",
+    "img/time_atk/8.png",
+    "img/time_atk/9.png",
+    "img/time_atk/10.png"
+  ],
+  "furniture": ["img/furniture.png"],
+  "global_future": {
+    "img": "img/global_future.png",
+    "banner": [0, 195],
+    "parts": [
+      {
+        "date": ["2023/6/27", "2023/7/11"],
+        "part": [194, 484]
+      },
+      {
+        "date": ["2023/7/11", "2023/7/25"],
+        "part": [484, 773]
+      },
+      {
+        "date": ["2023/7/25", "2023/8/1"],
+        "part": [773, 1063]
+      },
+      {
+        "date": ["2023/8/1", "2023/8/11"],
+        "part": [1063, 1352]
+      },
+      {
+        "date": ["2023/8/11", "2023/8/22"],
+        "part": [1352, 1642]
+      },
+      {
+        "date": ["2023/8/22", "2023/9/5"],
+        "part": [1642, 1931]
+      },
+      {
+        "date": ["2023/9/5", "2023/9/19"],
+        "part": [1931, 2220]
+      },
+      {
+        "date": ["2023/9/19", "2023/10/3"],
+        "part": [2220, 2738]
+      },
+      {
+        "date": ["2023/10/3", "2023/10/10"],
+        "part": [2738, 3027]
+      },
+      {
+        "date": ["2023/10/10", "2023/10/17"],
+        "part": [3027, 3549]
+      },
+      {
+        "date": ["2023/10/17", "2023/10/24"],
+        "part": [3549, 3834]
+      },
+      {
+        "date": ["2023/10/24", "2023/11/7"],
+        "part": [3834, 4123]
+      },
+      {
+        "date": ["2023/11/7", "2023/11/14"],
+        "part": [4123, 4415]
+      },
+      {
+        "date": ["2023/11/14", "2023/11/21"],
+        "part": [4415, 4703]
+      },
+      {
+        "date": ["2023/11/21", "2023/12/5"],
+        "part": [4703, 4992]
+      },
+      {
+        "date": ["2023/12/5", "2023/12/12"],
+        "part": [4992, 5281]
+      },
+      {
+        "date": ["2023/12/12", "2023/12/19"],
+        "part": [5281, 5569]
+      },
+      {
+        "date": ["2023/12/19", "2024/1/2"],
+        "part": [5569, 5858]
+      },
+      {
+        "date": ["2024/1/2", "2024/1/9"],
+        "part": [5858, 6147]
+      }
+    ]
+  }
+}

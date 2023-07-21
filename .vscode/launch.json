@@ -1,0 +1,22 @@
+{
+  // 使用 IntelliSense 了解相关属性。
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "scripts.tools.future_crop_test",
+      "type": "python",
+      "request": "launch",
+      "module": "scripts.tools.future_crop_test",
+      "justMyCode": true
+    },
+    {
+      "name": "scripts.tools.check_wiki",
+      "type": "python",
+      "request": "launch",
+      "module": "scripts.tools.check_wiki",
+      "justMyCode": true
+    }
+  ]
+}
