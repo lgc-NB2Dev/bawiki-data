@@ -198,6 +198,7 @@
     "日奈": "img/student/hina.png",
     "日奈(泳装)": "img/student/hina (swimsuit).png",
     "日向": "img/student/hinata.png",
+    "日向(泳装)": "img/student/hinata (swimsuit).png",
     "若藻": "img/student/wakamo.png",
     "若藻(泳装)": "img/student/wakamo (swimsuit).png",
     "三森": "img/student/mimori.png",
@@ -217,6 +218,7 @@
     "响": "img/student/hibiki.png",
     "响(应援团)": "img/student/hibiki (cheer squad).png",
     "小春": "img/student/koharu.png",
+    "小春(泳装)": "img/student/koharu (swimsuit).png",
     "小雪": "img/student/koyuki.png",
     "小玉": "img/student/kotama.png",
     "咲": "img/student/saki.png",
@@ -238,6 +240,7 @@
     "优香": "img/student/yuuka.png",
     "优香(运动服)": "img/student/yuuka (track).png",
     "忧": "img/student/ui.png",
+    "忧(泳装)": "img/student/ui (swimsuit).png",
     "柚子": "img/student/yuzu.png",
     "柚子(女仆)": "img/student/yuzu (maid).png",
     "月咏": "img/student/tsukuyo.png",
@@ -250,9 +253,6 @@
     "渚": "img/student/nagisa.png",
     "梓": "img/student/azusa.png",
     "梓(泳装)": "img/student/azusa (swimsuit).png",
-    "日向(泳装)": "img/student/hinata (swimsuit).png",
-    "小春(泳装)": "img/student/koharu (swimsuit).png",
-    "忧(泳装)": "img/student/ui (swimsuit).png",
     "シロコ(水着)": "img/student/shiroko (swimsuit).png"
   },
   "time_atk": [
