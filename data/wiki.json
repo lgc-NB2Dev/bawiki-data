@@ -137,6 +137,7 @@
     "花凛": "img/student/karin.png",
     "花凛(兔女郎)": "img/student/karin (bunny).png",
     "花子": "img/student/hanako.png",
+    "花子(泳装)": "img/student/hanako (swimsuit).png",
     "惠": "img/student/megu.png",
     "佳代子": "img/student/kayoko.png",
     "佳代子(正月)": "img/student/kayoko (new year).png",
@@ -252,9 +253,7 @@
     "茱莉": "img/student/_extra.png",
     "渚": "img/student/nagisa.png",
     "梓": "img/student/azusa.png",
-    "梓(泳装)": "img/student/azusa (swimsuit).png",
-    "花子(泳装)": "img/student/hanako(swimsuit).png",
-    "シロコ(水着)": "img/student/shiroko (swimsuit).png"
+    "梓(泳装)": "img/student/azusa (swimsuit).png"
   },
   "time_atk": [
     "img/time_atk/1.png",
