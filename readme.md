@@ -137,7 +137,9 @@
 
 ### `manga.json`
 
-这个文件是 `ba漫画` 功能所使用的数据
+此文件已弃用
+
+<!-- 这个文件是 `ba漫画` 功能所使用的数据
 
 该文件会由 Actions 工作流爬取 GameKee 数据并自动生成
 
@@ -160,7 +162,7 @@
     "pics": ["https://cdnimg.gamekee.com/images/www/1616470072424_26237045.jpg"]
   }
 ]
-```
+``` -->
 
 ### `raid_alias.json`
 
