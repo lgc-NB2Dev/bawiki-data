@@ -103,8 +103,6 @@
   },
   "student": {
     "all": "img/student/_all.png",
-    "ハナコ(水着)": "img/student/hanako (swimsuit).png",
-    "_ミモリ(水着)": "img/student/mimori (swimsuit).png",
     "阿露": "img/student/aru.png",
     "阿露(正月)": "img/student/aru (new year).png",
     "艾米": "img/student/eimi.png",
@@ -139,6 +137,7 @@
     "花凛": "img/student/karin.png",
     "花凛(兔女郎)": "img/student/karin (bunny).png",
     "花子": "img/student/hanako.png",
+    "花子(泳装)": "img/student/hanako (swimsuit).png",
     "惠": "img/student/megu.png",
     "佳代子": "img/student/kayoko.png",
     "佳代子(正月)": "img/student/kayoko (new year).png",
@@ -204,6 +203,7 @@
     "若藻": "img/student/wakamo.png",
     "若藻(泳装)": "img/student/wakamo (swimsuit).png",
     "三森": "img/student/mimori.png",
+    "_三森(泳装)": "img/student/mimori (swimsuit).png",
     "纱绫": "img/student/saya.png",
     "纱绫(私服)": "img/student/saya (casual).png",
     "纱织": "img/student/saori.png",
@@ -255,7 +255,8 @@
     "渚": "img/student/nagisa.png",
     "梓": "img/student/azusa.png",
     "梓(泳装)": "img/student/azusa (swimsuit).png",
-    "花子(泳装)": "img/student/hanako (swimsuit).png"
+    "ハナコ(水着)": "img/student/hanako (swimsuit).png",
+    "_ミモリ(水着)": "img/student/mimori (swimsuit).png"
   },
   "time_atk": [
     "img/time_atk/1.png",
