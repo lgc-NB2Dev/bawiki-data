@@ -103,6 +103,8 @@
   },
   "student": {
     "all": "img/student/_all.png",
+    "メル": "img/student/meru.png",
+    "モミジ": "img/student/momiji.png",
     "阿露": "img/student/aru.png",
     "阿露(正月)": "img/student/aru (new year).png",
     "艾米": "img/student/eimi.png",
@@ -132,7 +134,6 @@
     "和香(温泉)": "img/student/nodoka (hot spring).png",
     "鹤城": "img/student/tsurugi.png",
     "鹤城(泳装)": "img/student/tsurugi (swimsuit).png",
-    "红叶": "img/student/momiji.png",
     "花江": "img/student/hanae.png",
     "花江(圣诞)": "img/student/hanae (christmas).png",
     "花凛": "img/student/karin.png",
@@ -163,7 +164,6 @@
     "美咲": "img/student/misaki.png",
     "美游": "img/student/miyu.png",
     "美游(泳装)": "img/student/miyu (swimsuit).png",
-    "梅露": "img/student/meru.png",
     "萌绘": "img/student/moe.png",
     "弥奈": "img/student/mina.png",
     "明里": "img/student/akari.png",
@@ -257,6 +257,8 @@
     "渚": "img/student/nagisa.png",
     "梓": "img/student/azusa.png",
     "梓(泳装)": "img/student/azusa (swimsuit).png",
+    "红叶": "img/student/momiji.png",
+    "梅露": "img/student/meru.png",
     "ハナコ(水着)": "img/student/hanako (swimsuit).png",
     "ミモリ(水着)": "img/student/mimori (swimsuit).png"
   },
