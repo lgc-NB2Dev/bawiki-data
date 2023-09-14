@@ -63,7 +63,7 @@ async def main():
         region_name = region_name_map[region["name"]]
         gachas = region["current_gacha"]
         for gacha in gachas:
-            if gacha["start"] <= time.time() * 1000 < gacha["end"]:
+            if not (gacha["start"] <= time.time() < gacha["end"]):
                 continue
 
             characters = gacha["characters"]
