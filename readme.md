@@ -4,13 +4,16 @@
 
 这里是供 [nonebot-plugin-bawiki](https://github.com/lgc2333/nonebot-plugin-bawiki) 插件使用的的数据源仓库
 
-## 🌏 可用域名
+## 🌏 可用地址
 
-- (国内 CDN) <https://bawiki.lgc.cyberczy.xyz>
+<!-- - (国内 CDN) <https://bawiki.lgc.cyberczy.xyz> -->
+
 - (Vercel) <https://bawiki.lgc2333.top>
 
 直接访问跳转到仓库主页是正常的，加上文件路径就行了  
 比如 <https://bawiki.lgc2333.top/img/student/_all.png>
+
+如果有佬搭建了国内好用的反代的话，欢迎联系我在这里添加上你的地址！
 
 ## 📦 使用本仓库的项目
 
