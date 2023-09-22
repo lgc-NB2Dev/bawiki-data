@@ -211,7 +211,7 @@
 
 该文件的格式如下
 
-```json
+```jsonc
 {
   // 键为学生在 SchaleDB 的中文名
   // 值为学生的别名列表
@@ -255,7 +255,7 @@
 
 该文件的格式如下
 
-```json
+```jsonc
 {
   // 键名是特殊学生名中括号内的内容
   // 值是另外的要加在补全后别名中的前缀
@@ -270,7 +270,7 @@
 
 该文件的格式如下
 
-```json
+```jsonc
 {
   // 键名为环境英文名，可以在下面链接的 AdaptationType 里找到
   // https://github.com/lonqie/SchaleDB/blob/main/data/cn/localization.json
@@ -287,7 +287,7 @@
 
 该文件的格式如下
 
-```json
+```jsonc
 {
   // 总力战 wiki 图片列表
   "raid": {
@@ -369,6 +369,7 @@ _名单按首字母排序_
 | :----------------------------------------------------------- | :--------------------------------------- |
 | [Alin-sky](https://github.com/Alin-sky)                      | 仓库贡献                                 |
 | [blacksidd](https://github.com/blacksidd)                    | 仓库贡献                                 |
+| [Ealvn](https://github.com/Ealvn)                            | 仓库贡献                                 |
 | [FuRobert](https://github.com/FuRobert)                      | 仓库贡献                                 |
 | [GameKee](https://ba.gamekee.com/)                           | 官推漫画，部分翻译等                     |
 | [黑枪灬王子](mailto:1109024495@qq.com)                       | 学生别名提供                             |
