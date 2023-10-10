@@ -60,8 +60,8 @@ async def main():
     regions: List[dict] = common_data["Regions"]
 
     for region in regions:
-        region_name = region_name_map[region["name"]]
-        gachas = region["current_gacha"]
+        region_name = region_name_map[region["Name"]]
+        gachas = region["CurrentGacha"]
         for gacha in gachas:
             if not (gacha["start"] <= time.time() < gacha["end"]):
                 continue
