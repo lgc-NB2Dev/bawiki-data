@@ -56,8 +56,8 @@ async def main():
 
     pools = []
 
-    common_data = cast(dict, await schale_get("data/common.min.json"))
-    regions: List[dict] = common_data["regions"]
+    common_data = cast(dict, await schale_get("data/config.min.json"))
+    regions: List[dict] = common_data["Regions"]
 
     for region in regions:
         region_name = region_name_map[region["name"]]
