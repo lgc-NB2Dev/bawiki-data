@@ -89,6 +89,11 @@ async def main():
         print(f"stu_alias: {cn_name}: {'; '.join(org_li)}")
         # await asyncio.sleep(0)
 
+    cn_names = [replace_brackets(x["Name"]) for x in cn_stu.values()]
+    for k, _ in replaced_alias_li.items():
+        if k not in cn_names:
+            print(f"stu_alias: !!! WARNING !!! 别名列表中的未知学生 {k}")
+
     async with aiofiles.open(str(ALIAS_JSON_PATH), "w", encoding="utf-8") as f:
         await f.write(
             replace_brackets(
