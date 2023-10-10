@@ -191,7 +191,7 @@
     "琴里(应援团)": "img/student/kotori (cheer squad).png",
     "晴": "img/student/_extra.png",
     "晴奈": "img/student/haruna.png",
-    "_晴奈(运动服)": "img/student/haruna (track).png",
+    "晴奈(运动服)": "img/student/haruna (track).png",
     "晴奈(正月)": "img/student/haruna (new year).png",
     "泉": "img/student/izumi.png",
     "泉(泳装)": "img/student/izumi (swimsuit).png",
@@ -221,7 +221,7 @@
     "桃": "img/student/momoi.png",
     "桐乃": "img/student/kirino.png",
     "未花": "img/student/mika.png",
-    "_霞": "img/student/kasumi.png",
+    "霞": "img/student/kasumi.png",
     "夏": "img/student/natsu.png",
     "响": "img/student/hibiki.png",
     "响(应援团)": "img/student/hibiki (cheer squad).png",
@@ -240,7 +240,7 @@
     "野宫": "img/student/nonomi.png",
     "野宫(泳装)": "img/student/nonomi (swimsuit).png",
     "叶渚": "img/student/kanna.png",
-    "_一花": "img/student/ichika.png",
+    "一花": "img/student/ichika.png",
     "伊吕波": "img/student/iroha.png",
     "伊织": "img/student/iori.png",
     "伊织(泳装)": "img/student/iori (swimsuit).png",
@@ -260,7 +260,10 @@
     "朱莉": "img/student/_extra.png",
     "渚": "img/student/nagisa.png",
     "梓": "img/student/azusa.png",
-    "梓(泳装)": "img/student/azusa (swimsuit).png"
+    "梓(泳装)": "img/student/azusa (swimsuit).png",
+    "_晴奈(运动服)": "img/student/haruna (track).png",
+    "_霞": "img/student/kasumi.png",
+    "_一花": "img/student/ichika.png"
   },
   "time_atk": [
     "img/time_atk/1.png",
