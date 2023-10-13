@@ -1,10 +1,4 @@
 {
-  "シグレ(温泉)": [
-    "シグレ(温泉)",
-    "mayoi shigure (hot spring)",
-    "shigure (hot spring)",
-    "間宵シグレ(温泉)"
-  ],
   "艾米": [
     "エイミ",
     "eimi",
@@ -1326,6 +1320,17 @@
     "兔トキ"
   ],
   "时雨": ["シグレ", "mayoi shigure", "shigure", "间宵时雨", "間宵シグレ"],
+  "时雨(温泉)": [
+    "シグレ(温泉)",
+    "mayoi shigure (hot spring)",
+    "shigure (hot spring)",
+    "間宵时雨(温泉)",
+    "間宵シグレ(温泉)",
+    "温泉shigure",
+    "温泉间宵时雨",
+    "温泉シグレ",
+    "温泉时雨"
+  ],
   "实里": [
     "ミノリ",
     "minori",
