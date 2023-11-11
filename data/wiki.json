@@ -111,7 +111,7 @@
     "爱露(正月)": "img/student/aru (new year).png",
     "巴": "img/student/tomoe.png",
     "白子": "img/student/shiroko.png",
-    "白子(单车)": "img/student/shiroko (cycling).png",
+    "白子(骑行)": "img/student/shiroko (cycling).png",
     "白子(泳装)": "img/student/shiroko (swimsuit).png",
     "初音未来": "img/student/hatsune miku.png",
     "吹雪": "img/student/fubuki.png",
@@ -266,6 +266,7 @@
     "梓(泳装)": "img/student/azusa (swimsuit).png",
     "_紫草": "img/student/yukari.png",
     "佐天泪子": "img/student/saten ruiko.png",
+    "白子(单车)": "img/student/shiroko (cycling).png",
     "シグレ(温泉)": "img/student/shigure (hot spring).png"
   },
   "time_atk": [
