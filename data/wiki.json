@@ -103,6 +103,8 @@
   },
   "student": {
     "all": "img/student/_all.png",
+    "_コタマ(キャンプ)": "img/student/kotama (camping).png",
+    "_ハレ(キャンプ)": "img/student/hare (camping).png",
     "艾米": "img/student/eimi.png",
     "_艾米(泳装)": "img/student/eimi (swimsuit).png",
     "爱理": "img/student/_extra.png",
