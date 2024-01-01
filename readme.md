@@ -24,7 +24,7 @@
 - [staytomorrow/ba_calendar_e](https://github.com/staytomorrow/ba_calendar_e)
   - 基于 CQHTTP 及 KuMiao，支持私聊 / 群聊 / QQ 频道，碧蓝档案图形化日程表，Wiki 查询，模拟抽卡等功能
 - [Alin-sky/koishi-plugin-ba-plugin](https://github.com/Alin-sky/koishi-plugin-ba-plugin)
-  - koishi 插件，BlueArchive / 碧蓝档案 工具箱，正在不断开发新功能
+  - Koishi 插件，BlueArchive / 碧蓝档案 工具箱，正在不断开发新功能
 
 ## 📝 贡献指南
 
