@@ -103,6 +103,9 @@
   },
   "student": {
     "all": "img/student/_all.png",
+    "_イブキ": "img/student/ibuki.png",
+    "_マコト": "img/student/makoto.png",
+    "_アコ(ドレス)": "img/student/ako (dress).png",
     "艾米": "img/student/eimi.png",
     "艾米(泳装)": "img/student/eimi (swimsuit).png",
     "爱理": "img/student/_extra.png",
