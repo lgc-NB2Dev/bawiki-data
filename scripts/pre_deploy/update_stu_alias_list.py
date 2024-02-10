@@ -2,12 +2,11 @@ import asyncio
 import json
 import logging
 
-import aiofiles
+import anyio
 from cn_sort import sort_text_list
 
 from ..base.const import ALIAS_JSON_PATH, SUFFIX_ALIAS_JSON_PATH
 from ..base.utils import (
-    async_read_file,
     replace_brackets,
     schale_get_stu_data,
     sort_json_keys,
@@ -22,8 +21,8 @@ async def main():
             schale_get_stu_data("cn"),
             schale_get_stu_data("jp"),
             schale_get_stu_data("en"),
-            async_read_file(ALIAS_JSON_PATH),
-            async_read_file(SUFFIX_ALIAS_JSON_PATH),
+            await anyio.Path(ALIAS_JSON_PATH).read_text(encoding="u8"),
+            await anyio.Path(SUFFIX_ALIAS_JSON_PATH).read_text(encoding="u8"),
         ],
     )
 
@@ -94,15 +93,15 @@ async def main():
         if k not in cn_names:
             print(f"stu_alias: !!! WARNING !!! 别名列表中的未知学生 {k}")
 
-    async with aiofiles.open(str(ALIAS_JSON_PATH), "w", encoding="utf-8") as f:
-        await f.write(
-            replace_brackets(
-                json.dumps(
-                    sort_json_keys(replaced_alias_li),
-                    ensure_ascii=False,
-                    indent=2,
-                ),
-            ).lower(),
-        )
+    await anyio.Path(ALIAS_JSON_PATH).write_text(
+        replace_brackets(
+            json.dumps(
+                sort_json_keys(replaced_alias_li),
+                ensure_ascii=False,
+                indent=2,
+            ),
+        ).lower(),
+        encoding="u8",
+    )
 
     print("stu_alias: complete")

@@ -23,7 +23,6 @@ async def async_req(
     if is_json:
         if raw:
             raise TypeError("Raw 与 Json 不可同时为 True")
-
         data = json.loads(data)
 
     return data

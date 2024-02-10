@@ -2,7 +2,7 @@ import json
 import time
 from typing import List, cast
 
-import aiofiles
+import anyio
 
 from ..base.const import GACHA_JSON_PATH
 from ..base.utils import schale_get, schale_get_stu_data
@@ -85,15 +85,12 @@ async def main():
     print(f"gacha: 当期卡池：{json.dumps(pools, ensure_ascii=False, indent=2)}")
     # endregion
 
-    async with aiofiles.open(str(GACHA_JSON_PATH), encoding="u8") as f:
-        j = json.loads(await f.read())
+    j = json.loads(await anyio.Path(GACHA_JSON_PATH).read_text(encoding="u8"))
     j["base"] = BASE_DICT
     j["current_pools"] = pools
 
     dump_j = json.dumps(j, indent=2, ensure_ascii=False)
-
-    async with aiofiles.open(str(GACHA_JSON_PATH), "w", encoding="u8") as f:
-        await f.write(dump_j)
+    await anyio.Path(GACHA_JSON_PATH).write_text(dump_j, encoding="u8")
 
     print("gacha: complete")
 
