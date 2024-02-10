@@ -1,3 +1,4 @@
+import asyncio
 import json
 import re
 
@@ -14,3 +15,7 @@ async def main():
         encoding="u8",
     )
     print("emoji: complete")
+
+
+if __name__ == "__main__":
+    asyncio.run(main())

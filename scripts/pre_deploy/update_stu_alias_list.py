@@ -21,18 +21,15 @@ async def main():
             schale_get_stu_data("cn"),
             schale_get_stu_data("jp"),
             schale_get_stu_data("en"),
-            await anyio.Path(ALIAS_JSON_PATH).read_text(encoding="u8"),
-            await anyio.Path(SUFFIX_ALIAS_JSON_PATH).read_text(encoding="u8"),
+            anyio.Path(ALIAS_JSON_PATH).read_text(encoding="u8"),
+            anyio.Path(SUFFIX_ALIAS_JSON_PATH).read_text(encoding="u8"),
         ],
     )
-
-    # async with aiofiles.open(str(ALIAS_BAK_PATH), "w", encoding="utf-8") as f:
-    #     await f.write(alias_li)
 
     alias_li = json.loads(alias_li)
     suff_li = json.loads(suff_li)
 
-    replaced_alias_li = alias_li
+    replaced_alias_li: dict[str, list[str]] = alias_li
 
     for s_id, cn in cn_stu.items():
         cn_name = replace_brackets(cn["Name"])
@@ -89,9 +86,8 @@ async def main():
         # await asyncio.sleep(0)
 
     cn_names = [replace_brackets(x["Name"]) for x in cn_stu.values()]
-    for k, _ in replaced_alias_li.items().keys():
-        if k not in cn_names:
-            print(f"stu_alias: !!! WARNING !!! 别名列表中的未知学生 {k}")
+    for k in (x for x in replaced_alias_li if x not in cn_names):
+        print(f"stu_alias: !!! WARNING !!! 别名列表中的未知学生 {k}")
 
     await anyio.Path(ALIAS_JSON_PATH).write_text(
         replace_brackets(
@@ -104,4 +100,28 @@ async def main():
         encoding="u8",
     )
 
+    # update suffix alias
+    new_suff_li = {
+        *(
+            x.split("(")[1][:-1]
+            for x in (replace_brackets(x) for x in replaced_alias_li)
+            if "(" in x
+        ),
+    }
+    for x in (x for x in suff_li if x not in new_suff_li):
+        print(f"stu_alias: !!! WARNING !!! 未知后缀 {x}")
+    new_suff_data = {**{x: [] for x in new_suff_li}, **suff_li}
+    await anyio.Path(SUFFIX_ALIAS_JSON_PATH).write_text(
+        json.dumps(
+            sort_json_keys(new_suff_data),
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="u8",
+    )
+
     print("stu_alias: complete")
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
