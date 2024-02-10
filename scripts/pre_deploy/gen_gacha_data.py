@@ -36,7 +36,9 @@ async def main():
             elif star_grade == 1:
                 star1.append(s_id)
 
-        print(f'gacha: {star_grade}星{"[限定]" if limited else " 常驻 "}：({s_id}) {s_name}')
+        print(
+            f'gacha: {star_grade}星{"[限定]" if limited else " 常驻 "}：({s_id}) {s_name}',
+        )
 
     star3.sort()
     star2.sort()

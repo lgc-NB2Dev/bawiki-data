@@ -1,9 +1,8 @@
 import json
 from typing import Any
 
-import aiofiles
 from aiohttp import ClientSession
-from bs4 import PageElement
+from bs4 import Tag
 from cn_sort import sort_text_list
 
 from .const import GAMEKEE_URL, SCHALE_URL
@@ -16,7 +15,7 @@ async def async_req(
     is_json: bool = True,
     raw: bool = False,
     **kwargs,
-) -> str | bytes | dict[str, Any] | list:
+) -> Any:
     async with ClientSession() as c:
         async with c.request(method, url, *args, **kwargs) as r:
             data = (await r.read()) if raw else (await r.text())
@@ -30,14 +29,14 @@ async def async_req(
     return data
 
 
-async def schale_get(suffix, raw=False):
+async def schale_get(suffix: str, raw: bool = False):
     return await async_req(f"{SCHALE_URL}{suffix}", raw=raw)
 
 
 async def schale_get_stu_data(
-    locale="cn",
-    key="Id",
-    raw=False,
+    locale: str = "cn",
+    key: str = "Id",
+    raw: bool = False,
 ) -> dict[str, dict] | list[dict]:
     r = await schale_get(f"data/{locale}/students.min.json")
     return r if raw else {x[key]: x for x in r}
@@ -56,26 +55,18 @@ async def game_kee_req(suffix: str, *args, **kwargs) -> dict[str, Any] | list[An
     return ret["data"]
 
 
-async def async_read_file(path, mode="r", encoding="utf-8", **kwargs):
-    async with aiofiles.open(str(path), mode, encoding=encoding, **kwargs) as f:
-        return await f.read()
-
-
-def replace_brackets(s):
+def replace_brackets(s: str):
     return s.replace("（", "(").replace("）", ")")
 
 
-def tags_to_str(tag: PageElement) -> str:
+def tags_to_str(tag: Tag) -> str:
     if c := getattr(tag, "contents", None):
         return "".join([s for x in c if (s := tags_to_str(x))])
-
-    else:
-        if s := tag.text.strip().replace("\u200b", ""):
-            return s
-        elif tag.name == "img" or tag.name == "br":
-            return "\n"
-        else:
-            return ""
+    if s := tag.text.strip().replace("\u200b", ""):
+        return s
+    if tag.name == "img" or tag.name == "br":
+        return "\n"
+    return ""
 
 
 def sort_json_keys(will_sort: dict) -> dict:

@@ -90,7 +90,7 @@ async def main():
         # await asyncio.sleep(0)
 
     cn_names = [replace_brackets(x["Name"]) for x in cn_stu.values()]
-    for k, _ in replaced_alias_li.items():
+    for k, _ in replaced_alias_li.items().keys():
         if k not in cn_names:
             print(f"stu_alias: !!! WARNING !!! 别名列表中的未知学生 {k}")
 

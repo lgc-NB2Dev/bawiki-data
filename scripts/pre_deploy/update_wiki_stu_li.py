@@ -44,9 +44,7 @@ async def main():
 
         wiki_students[k] = path
 
-    unknown_stu = {
-        k: v for k, v in student_json.items() if k not in wiki_students.keys()
-    }
+    unknown_stu = {k: v for k, v in student_json.items() if k not in wiki_students}
     for k, v in unknown_stu.items():
         print(f"update_stu_li: 未知学生 {k} 角评 <{v}>")
         wiki_students[k] = v
