@@ -2,3 +2,5 @@ all.log
 error.log
 scripts/tmp/
 __pycache__/
+.vscode
+*.egg-info
