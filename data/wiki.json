@@ -103,7 +103,7 @@
   },
   "student": {
     "all": "img/student/_all.png",
-    "_阿露(礼服)": "img/student/aru (dress).png",
+    "阿露(礼服)": "img/student/aru (dress).png",
     "艾米": "img/student/eimi.png",
     "艾米(泳装)": "img/student/eimi (swimsuit).png",
     "爱理": "img/student/_extra.png",
@@ -147,7 +147,7 @@
     "花子(泳装)": "img/student/hanako (swimsuit).png",
     "惠久": "img/student/megu.png",
     "佳代子": "img/student/kayoko.png",
-    "_佳代子(礼服)": "img/student/kayoko (dress).png",
+    "佳代子(礼服)": "img/student/kayoko (dress).png",
     "佳代子(正月)": "img/student/kayoko (new year).png",
     "桔梗": "img/student/kikyou.png",
     "堇": "img/student/sumire.png",
