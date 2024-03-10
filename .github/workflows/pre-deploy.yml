@@ -32,7 +32,7 @@ jobs:
       - name: Install Dependencies
         run: pdm install -G:all
       - name: Run pre-deploy.sh
-        run: sh scripts/pre-deploy.sh
+        run: pdm run sh scripts/pre-deploy.sh
       - name: Format with Prettier
         run: prettier -c -w .
       - name: Commit changes
