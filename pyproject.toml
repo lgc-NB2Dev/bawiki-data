@@ -11,8 +11,11 @@ dependencies = [
 ]
 requires-python = ">=3.9"
 
-# [tool.setuptools.package-dir]
-# bawiki-data-scripts = "scripts"
+[tool.setuptools]
+packages = []
 
 [tool.pdm]
 distribution = false
+
+[tool.pyright]
+pythonVersion = "3.10"

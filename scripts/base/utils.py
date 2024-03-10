@@ -25,6 +25,7 @@ async def async_req(
             raise TypeError("Raw 与 Json 不可同时为 True")
         data = json.loads(data)
 
+    print(f"req {url}: {data[:50]}")
     return data
 
 
