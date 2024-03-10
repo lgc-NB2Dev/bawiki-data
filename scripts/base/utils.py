@@ -19,13 +19,13 @@ async def async_req(
     async with ClientSession() as c:
         async with c.request(method, url, *args, **kwargs) as r:
             data = (await r.read()) if raw else (await r.text())
+            print(f"req {url}: {repr(data)[:50]}")
 
     if is_json:
         if raw:
             raise TypeError("Raw 与 Json 不可同时为 True")
         data = json.loads(data)
 
-    print(f"req {url}: {data[:50]}")
     return data
 
 
