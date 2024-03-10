@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import TypedDict
 
-SCHALE_URL = "https://schale.gg/"
+SCHALE_URL = "https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/"
 GAMEKEE_URL = "https://ba.gamekee.com/"
 
 SCRIPT_PATH = Path(__file__).parent.parent
