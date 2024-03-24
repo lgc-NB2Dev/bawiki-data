@@ -16,6 +16,3 @@ packages = []
 
 [tool.pdm]
 distribution = false
-
-[tool.pyright]
-pythonVersion = "3.10"
