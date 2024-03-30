@@ -1,11 +1,4 @@
 {
-  "ウミカ": ["ウミカ", "satohama umika", "umika", "里浜ウミカ"],
-  "ツバキ(ガイド)": [
-    "ツバキ(ガイド)",
-    "kasuga tsubaki (guide)",
-    "tsubaki (guide)",
-    "春日ツバキ(ガイド)"
-  ],
   "阿露(礼服)": [
     "アル(ドレス)",
     "aru (dress)",
@@ -227,6 +220,13 @@
     "狗盾",
     "神秘t"
   ],
+  "椿(导游)": [
+    "ツバキ(ガイド)",
+    "kasuga tsubaki (guide)",
+    "tsubaki (guide)",
+    "春日椿(导游)",
+    "春日ツバキ(ガイド)"
+  ],
   "纯子": [
     "ジュンコ",
     "akashi junko",
@@ -388,6 +388,7 @@
     "月雪ミヤコ(水着)"
   ],
   "果穗": ["カホ", "kaho", "kuwakami kaho", "桑上果穗", "桑上カホ"],
+  "海香": ["ウミカ", "satohama umika", "umika", "里浜ウミカ", "里浜海香"],
   "好美": [
     "ヨシミ",
     "ibaragi yoshimi",
