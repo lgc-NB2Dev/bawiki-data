@@ -374,11 +374,11 @@ _名单按首字母排序_
 | [FuRobert](https://github.com/FuRobert)                      | 仓库贡献                                 |
 | [GameKee](https://ba.gamekee.com/)                           | 官推漫画，部分翻译等                     |
 | [黑枪灬王子](mailto:1109024495@qq.com)                       | 学生别名提供                             |
+| [ltzXiaoYanMo](https://ymbit.cn/)                            | 镜像贡献                                |
 | [Nekowryyy](https://github.com/Nekowryyy)                    | 仓库贡献                                 |
 | [Rouphy](https://github.com/Rouphy)                          | 学生别名提供                             |
 | [SchaleDB](https://schale.gg/)                               | 部分中文翻译等                           |
 | [夜猫咪喵喵猫](https://space.bilibili.com/425535005/article) | 总力战一图流，活动一图流，学生角评等图片 |
-| [ltzXiaoYanMo](https://ymbit.cn/)                            | 镜像贡献                                |
 
 ## 📞 联系
 
