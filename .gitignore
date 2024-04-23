@@ -5,3 +5,4 @@ __pycache__/
 .vscode
 *.egg-info
 pdm.lock
+.pdm-python
