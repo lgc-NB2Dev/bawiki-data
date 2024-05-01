@@ -1255,7 +1255,9 @@
   "晴": ["ハレ", "emp", "hare", "omagari hare", "小钩晴", "小鈎ハレ"],
   "晴(露营)": [
     "ハレ(キャンプ)",
+    "hare (camp)",
     "hare (camping)",
+    "omagari hare (camp)",
     "omagari hare (camping)",
     "红薯",
     "露营emp",
@@ -1783,7 +1785,9 @@
   "小玉": ["コタマ", "kotama", "otose kotama", "音濑小玉", "音瀬コタマ"],
   "小玉(露营)": [
     "コタマ(キャンプ)",
+    "kotama (camp)",
     "kotama (camping)",
+    "otose kotama (camp)",
     "otose kotama (camping)",
     "露营kotama",
     "露营小玉",
