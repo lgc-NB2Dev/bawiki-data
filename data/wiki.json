@@ -103,7 +103,6 @@
   },
   "student": {
     "all": "img/student/_all.png",
-    "_キララ": "img/student/kirara.png",
     "阿露(礼服)": "img/student/aru (dress).png",
     "艾米": "img/student/eimi.png",
     "艾米(泳装)": "img/student/eimi (swimsuit).png",
@@ -186,6 +185,7 @@
     "妮露": "img/student/neru.png",
     "妮露(邦妮)": "img/student/neru (bunny).png",
     "诺亚": "img/student/noa.png",
+    "_绮罗罗": "img/student/kirara.png",
     "千世": "img/student/chise.png",
     "千世(泳装)": "img/student/chise (swimsuit).png",
     "千夏": "img/student/chinatsu.png",
@@ -284,6 +284,7 @@
     "梓(泳装)": "img/student/azusa (swimsuit).png",
     "紫草": "img/student/yukari.png",
     "佐天泪子": "img/student/saten ruiko.png",
+    "_キララ": "img/student/kirara.png",
     "晴(露营)": "img/student/hare (camping).png",
     "小玉(露营)": "img/student/kotama (camping).png",
     "ウミカ": "img/student/umika.png",
