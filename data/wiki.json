@@ -103,7 +103,6 @@
   },
   "student": {
     "all": "img/student/_all.png",
-    "_セリカ(水着)": "img/student/serika (swimsuit).png",
     "阿露(礼服)": "img/student/aru (dress).png",
     "艾米": "img/student/eimi.png",
     "艾米(泳装)": "img/student/eimi (swimsuit).png",
@@ -201,6 +200,7 @@
     "芹娜(圣诞节)": "img/student/serina (christmas).png",
     "芹香": "img/student/serika.png",
     "芹香(新年)": "img/student/serika (new year).png",
+    "_芹香(泳装)": "img/student/serika (swimsuit).png",
     "琴里": "img/student/kotori.png",
     "琴里(应援团)": "img/student/kotori (cheer squad).png",
     "晴": "img/student/hare.png",
@@ -287,6 +287,7 @@
     "梓(泳装)": "img/student/azusa (swimsuit).png",
     "紫草": "img/student/yukari.png",
     "佐天泪子": "img/student/saten ruiko.png",
+    "_セリカ(水着)": "img/student/serika (swimsuit).png",
     "_モモイ(メイド)": "img/student/momoi (maid).png",
     "_ミドリ(メイド)": "img/student/midori (maid).png",
     "_キララ": "img/student/kirara.png",
