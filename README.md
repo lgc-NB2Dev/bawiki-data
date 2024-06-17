@@ -9,7 +9,6 @@
 <!-- - (国内 CDN) <https://bawiki.lgc.cyberczy.xyz> -->
 
 - (Anycast, 实时更新, by [@Vercel](https://vercel.com/)) <https://bawiki.lgc2333.top>
-<!-- - (CN, 半小时一次, by [@ltzXiaoYanMo](https://ymbit.cn/)) <https://bawiki-data.ymbit.cn> >
 
 直接访问跳转到仓库主页是正常的，加上文件路径就行了  
 比如 <https://bawiki.lgc2333.top/img/student/_all.png>
