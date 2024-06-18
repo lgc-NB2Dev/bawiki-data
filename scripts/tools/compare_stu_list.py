@@ -12,8 +12,8 @@ async def main():
     # print(gamekee_stu_list)
     gamekee_diff = [stu for stu in schale_stu_list if stu not in gamekee_stu_list]
     schale_diff = [stu for stu in gamekee_stu_list if stu not in schale_stu_list]
-    print("Gamekee Diff >", gamekee_diff)
-    print("Schale Diff >", schale_diff)
+    print("Gamekee Diff (not in Schale) >", gamekee_diff)
+    print("Schale Diff (not in Gamekee) >", schale_diff)
 
 
 if __name__ == "__main__":
