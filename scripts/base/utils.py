@@ -1,5 +1,5 @@
 import json
-from typing import Any
+from typing import Any, Dict, Union, cast
 
 from aiohttp import ClientSession
 from bs4 import Tag
@@ -37,16 +37,20 @@ async def schale_get_stu_data(
     locale: str = "cn",
     key: str = "Id",
     raw: bool = False,
-) -> dict[str, dict] | list[dict]:
+) -> Union[dict[str, dict], list[dict]]:
     r = await schale_get(f"data/{locale}/students.min.json")
     return r if raw else {x[key]: x for x in r}
 
 
-async def game_kee_req(suffix: str, *args, **kwargs) -> dict[str, Any] | list[Any]:
+async def game_kee_req(
+    suffix: str,
+    *args,
+    **kwargs,
+) -> Union[dict[str, Any], list[Any]]:
     ret = await async_req(
         f"{GAMEKEE_URL}{suffix}",
         *args,
-        headers={"game-id": "0", "game-alias": "ba"},
+        headers={"game-id": "829", "game-alias": "ba"},
         proxy=None,
         **kwargs,
     )
@@ -71,3 +75,23 @@ def tags_to_str(tag: Tag) -> str:
 
 def sort_json_keys(will_sort: dict) -> dict:
     return {k: will_sort[k] for k in sort_text_list(will_sort.keys())}
+
+
+async def game_kee_get_stu_li() -> Dict[str, dict]:
+    ret = cast(dict, await game_kee_req("v1/wiki/entry"))
+
+    entry_stu = next(
+        (x for x in ret["entry_list"] if x["id"] == 23941),
+        None,
+    )
+    if not entry_stu:
+        return {}
+
+    entry_stu_all = next(
+        (x for x in entry_stu["child"] if x["id"] == 49443),
+        None,
+    )
+    if not entry_stu_all:
+        return {}
+
+    return {x["name"]: x for x in entry_stu_all["child"]}

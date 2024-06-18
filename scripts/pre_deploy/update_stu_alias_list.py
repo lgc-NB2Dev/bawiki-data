@@ -77,8 +77,7 @@ async def main():
                 suffix_alias = [suffix, *suffix_alias]
 
                 for sa in suffix_alias:
-                    for al in org_alias:
-                        org_li.add(f"{sa}{al}")
+                    org_li.update(f"{sa}{al}" for al in org_alias)
 
         org_li = list(sort_text_list(list(org_li)))
         replaced_alias_li[cn_name] = org_li
