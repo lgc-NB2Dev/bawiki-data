@@ -15,7 +15,7 @@ async def main():
     schale_diff = [stu for stu in gamekee_stu_list if stu not in schale_stu_list]
     print("Gamekee Diff (not in Schale) >", schale_diff)
     print("Schale Diff (not in Gamekee) >", gamekee_diff)
-    # prepare_dict = dict.fromkeys(gamekee_diff, "")
+    # prepare_dict = dict.fromkeys(gamekee_diff.replace("（", "(").replace("）", ")"), "")
     # print(json.dumps(prepare_dict, ensure_ascii=False, indent=2))
 
 
