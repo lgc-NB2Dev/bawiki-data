@@ -40,14 +40,5 @@
       "chance": 3.0
     }
   },
-  "current_pools": [
-    {
-      "name": "【日服】叶渚（泳装）",
-      "pool": [10096]
-    },
-    {
-      "name": "【日服】吹雪（泳装）",
-      "pool": [20037]
-    }
-  ]
+  "current_pools": []
 }
