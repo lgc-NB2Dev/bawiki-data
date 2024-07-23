@@ -103,8 +103,8 @@
   },
   "student": {
     "all": "img/student/_all.png",
-    "_シロコ＊テラー": "img/student/shiroko terror.png",
-    "_ホシノ(臨戦)": "img/student/hoshino (battle).png",
+    "シロコ＊テラー": "img/student/shiroko terror.png",
+    "ホシノ(臨戦)": "img/student/hoshino (battle).png",
     "アツコ(水着)": "img/student/atsuko (swimsuit).png",
     "阿露(礼服)": "img/student/aru (dress).png",
     "艾米": "img/student/eimi.png",
