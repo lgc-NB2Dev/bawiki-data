@@ -40,14 +40,5 @@
       "chance": 3.0
     }
   },
-  "current_pools": [
-    {
-      "name": "【国际服】美咲",
-      "pool": [10041]
-    },
-    {
-      "name": "【国际服】亚津子",
-      "pool": [10042]
-    }
-  ]
+  "current_pools": []
 }
